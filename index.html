@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
@@ -6,72 +7,202 @@
   <title>TEC Soluções LTDA - Ar-condicionado</title>
 
   <style>
-    body { font-family: Arial; margin: 0; background: #f7f7f7; }
-    header { background: #0A3A8D; padding: 15px; color: #fff; text-align: center; font-size: 22px; font-weight: bold; }
-    .section { padding: 20px; }
-    .title { font-size: 20px; font-weight: bold; color: #0A3A8D; margin-bottom: 10px; }
-    .card { background: #fff; padding: 15px; margin-bottom: 15px; border-radius: 8px; box-shadow: 0 0 10px #00000020; }
-    img { width: 100%; border-radius: 8px; margin-top: 10px; }
-    .btn { display: block; background: #22c55e; color: white; padding: 12px; text-align: center; border-radius: 8px; text-decoration: none; font-weight: bold; margin-top: 10px; }
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: #f7f7f7;
+      color: #222;
+    }
+
+    header {
+      background: #0a3a8d;
+      color: #fff;
+      padding: 16px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    header img {
+      height: 60px;
+      width: auto;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 20px;
+    }
+
+    header p {
+      margin: 2px 0 0;
+      font-size: 14px;
+      opacity: 0.9;
+    }
+
+    main {
+      padding: 16px;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    h2 {
+      margin-top: 24px;
+      margin-bottom: 12px;
+      color: #0a3a8d;
+      font-size: 20px;
+    }
+
+    .btn-whatsapp {
+      display: block;
+      width: 100%;
+      text-align: center;
+      background: #25d366;
+      color: #fff;
+      text-decoration: none;
+      padding: 14px 10px;
+      border-radius: 8px;
+      font-weight: bold;
+      font-size: 16px;
+      margin: 8px 0 20px;
+    }
+
+    .btn-whatsapp span {
+      margin-right: 6px;
+    }
+
+    .card {
+      background: #fff;
+      border-radius: 10px;
+      padding: 14px;
+      margin-bottom: 12px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+    }
+
+    .card strong {
+      display: block;
+      font-size: 16px;
+      margin-bottom: 4px;
+      color: #0a3a8d;
+    }
+
+    .card small {
+      display: block;
+      margin-bottom: 4px;
+      font-weight: bold;
+      color: #555;
+    }
+
+    .etapas {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 12px;
+    }
+
+    .etapa {
+      background: #ffffff;
+      border-radius: 10px;
+      padding: 14px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+    }
+
+    .etapa h3 {
+      margin: 0 0 8px;
+      font-size: 16px;
+      color: #0a3a8d;
+    }
+
+    .etapa img {
+      width: 100%;
+      border-radius: 8px;
+      margin-bottom: 8px;
+    }
+
+    .etapa p {
+      margin: 0;
+      font-size: 14px;
+    }
+
+    footer {
+      margin-top: 24px;
+      padding: 16px;
+      text-align: center;
+      font-size: 13px;
+      background: #0a3a8d;
+      color: #fff;
+    }
   </style>
 </head>
-
 <body>
+  <header>
+    <!-- Logo original que você subiu para o repositório -->
+    <img src="IMG-20251102-WA0003.jpg" alt="Logo TEC Soluções" />
+    <div>
+      <h1>TEC Soluções LTDA</h1>
+      <p>Instalação • Manutenção • Higienização de Ar-condicionado</p>
+    </div>
+  </header>
 
-<header>
-  TEC Soluções LTDA<br>
-  Instalação • Manutenção • Higienização
-</header>
+  <main>
+    <h2>Fale Conosco</h2>
+    <a class="btn-whatsapp" href="https://wa.me/5519995955105" target="_blank">
+      <span>💬</span> WhatsApp: (19) 99595-5105
+    </a>
 
-<div class="section">
-  <div class="title">Fale Conosco</div>
-  <a class="btn" href="https://wa.me/5519995955105?text=Olá,+quero+um+orçamento+de+ar-condicionado">
-    💬 WhatsApp: (19) 99595-5105
-  </a>
-</div>
+    <h2>Serviços</h2>
 
-<div class="section">
-  <div class="title">Serviços</div>
+    <div class="card">
+      <strong>Instalação de Ar-Condicionado</strong>
+      <small>Split • Inverter • 9.000 a 60.000 BTUs</small>
+      <span>Instalação seguindo normas técnicas, melhor posicionamento, vácuo correto e teste de vazamento para garantir máximo desempenho.</span>
+    </div>
 
-  <div class="card">
-    <b>Instalação de Ar-Condicionado</b><br>
-    Split • Inverter • 9.000 a 60.000 BTUs
-  </div>
+    <div class="card">
+      <strong>Manutenção preventiva e corretiva</strong>
+      <span>Evita vazamentos, mau cheiro, barulho e aumenta a vida útil do equipamento, reduzindo o consumo de energia.</span>
+    </div>
 
-  <div class="card">
-    <b>Manutenção preventiva e corretiva</b><br>
-    Evita vazamentos, mau cheiro, barulho e aumenta a vida útil.
-  </div>
+    <div class="card">
+      <strong>Higienização completa</strong>
+      <span>Limpeza de filtros, evaporadora, condensadora e dreno. Mais saúde, conforto e qualidade do ar para o ambiente.</span>
+    </div>
 
-  <div class="card">
-    <b>Higienização completa</b><br>
-    Evaporadora + condensadora + dreno
-  </div>
-</div>
+    <h2>Antes • Durante • Depois</h2>
 
-<div class="section">
-  <div class="title">Antes • Durante • Depois</div>
+    <p style="font-size:14px; margin-bottom:10px;">
+      Veja um exemplo real de higienização e manutenção realizada pela TEC Soluções LTDA.
+    </p>
 
-  <div class="card">
-    <b>ANTES</b>
-    <img src="IMG-20251029-WA0001.jpg">
-  </div>
+    <div class="etapas">
+      <div class="etapa">
+        <h3>Antes</h3>
+        <!-- Troque o nome do arquivo abaixo pelo da foto de filtro sujo, se quiser -->
+        <img src="IMG_ANTES.jpg" alt="Filtro sujo antes da limpeza" />
+        <p>Filtros completamente sujos, acumulo de poeira, fungos e bactérias, prejudicando a saúde e o desempenho do ar-condicionado.</p>
+      </div>
 
-  <div class="card">
-    <b>DURANTE</b>
-    <img src="IMG-20251029-WA0002.jpg">
-  </div>
+      <div class="etapa">
+        <h3>Durante</h3>
+        <!-- Troque o nome do arquivo abaixo pela foto da manutenção/vácuo -->
+        <img src="IMG_DURANTE.jpg" alt="Manutenção sendo realizada" />
+        <p>Processo de higienização, limpeza da unidade externa, aplicação de produtos adequados e execução de vácuo no sistema.</p>
+      </div>
 
-  <div class="card">
-    <b>DEPOIS</b>
-    <img src="IMG-20251029-WA0003.jpg">
-  </div>
+      <div class="etapa">
+        <h3>Depois</h3>
+        <!-- Troque o nome do arquivo abaixo pela foto da unidade limpa -->
+        <img src="IMG_DEPOIS.jpg" alt="Equipamento limpo após higienização" />
+        <p>Equipamento limpo, filtros higienizados e condensadora revisada, garantindo ar mais puro e climatização eficiente.</p>
+      </div>
+    </div>
+  </main>
 
-</div>
-
-<footer style="text-align:center; padding:15px; font-size:13px; color:#555;">
-  © 2025 TEC Soluções LTDA — Todos os direitos reservados.
-</footer>
-
+  <footer>
+    TEC Soluções LTDA • Ar-condicionado<br />
+    Atendimento: (19) 99595-5105 • Serviços com nota e garantia
+  </footer>
 </body>
 </html>
